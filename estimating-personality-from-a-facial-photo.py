@@ -1,6 +1,16 @@
 # -*- coding: utf-8 -*-
-# Experimental Python script that estimates personality traits from facial photos using deep learning models.
-# author: Ludek Stehlik (ludek.stehlik@gmail.com)
+
+"""
+Experimental Python script that estimates personality traits from facial photos using deep learning models.
+
+Author: Ludek Stehlik (ludek.stehlik@gmail.com)
+
+Caveat: This script is intended strictly for experimental and educational purposes. It does not provide a valid,
+reliable, or scientifically endorsed method for inferring personality traits from facial images. Personality is a
+complex, multi-dimensional construct that cannot be accurately assessed from appearance alone. Any apparent patterns
+or outputs should be interpreted as illustrative artifacts of the dataset and method—not as diagnostic or predictive
+insights. Use responsibly and with critical awareness of ethical and scientific limitations.
+"""
 
 # libraries to be used
 from deepface import DeepFace # pip install deepface
